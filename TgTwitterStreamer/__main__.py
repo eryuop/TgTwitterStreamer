@@ -17,11 +17,8 @@ async def start_message(event):
         buttons=[
             [Button.inline("Hello Sir, i'm Alive", data="ok")],
             [
-                Button.url(
-                    "Source",
-                    url=REPO_LINK,
-                ),
-                Button.url("Support Group", url="t.me/FutureCodesChat"),
+                Button.url("Channel", url="https://t.me/+knGy4MS0pa45N2U1"),
+                Button.url("Devloper", url="https://t.me/debojit_dev"),
             ],
         ],
     )
